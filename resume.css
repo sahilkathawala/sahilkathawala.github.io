@@ -10,33 +10,34 @@ h1{
 
 h2{
 	text-align: center;
+	margin: -30px 10px 10px 10px;
 }
 
 div{
 	display: inline-block;
-	margin: -30px 10px 10px 10px;
 }
-
-
 
 h3 {
 	font-size: 36px;
-	margin-left: 50px;
+	margin-left: 85px;
 	font-weight: bold;
 
 }
 
 h4{
-	font-size 24px;
-	margin-left: 70px;
+	font-size: 20px;
+	margin-left: 95px;
 
 }
 
 h5{
 	font-style: italic;
-	margin-left: 85px;
-}
-p{
+	font-weight: normal;
 	font-size: 16px;
-	margin-left: 100px;
+	margin-left: 115px;
+}
+
+p, ul{
+	font-size: 16px;
+	margin-left: 125px;
 }
