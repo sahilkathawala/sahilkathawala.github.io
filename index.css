@@ -5,4 +5,17 @@
 
 a{
 	text-decoration: none;
+	
+}
+a:link{
+	color:#3a4359;
+	}
+a:visited{
+	color:#6a7d95;
+}
+a:hover{
+	color:#6a7d95;
+}
+a:active{
+	color: #609a9f;
 }
