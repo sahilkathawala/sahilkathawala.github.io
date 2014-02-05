@@ -1,5 +1,5 @@
 *{
-	font-family: Futura;
+	font-family: Gill Sans;
 }
 
 h1{
@@ -10,23 +10,33 @@ h1{
 
 h2{
 	text-align: center;
-	border
 }
 
 div{
 	display: inline-block;
 	margin: -30px 10px 10px 10px;
-
 }
 
 
 
 h3 {
+	font-size: 36px;
 	margin-left: 50px;
-	font-style: bold;
+	font-weight: bold;
 
 }
 
+h4{
+	font-size 24px;
+	margin-left: 70px;
+
+}
+
+h5{
+	font-style: italic;
+	margin-left: 85px;
+}
 p{
-	margin-left: 75px;
+	font-size: 16px;
+	margin-left: 100px;
 }
