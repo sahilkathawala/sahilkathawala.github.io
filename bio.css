@@ -1,15 +1,17 @@
 *{
-	font-family: georgia;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1{
 	margin-left: 10px;
 	color: #3a4359;
-	font-weight: bold;
+	font-weight: 900;
 }
 
 p{
 	margin-left: 50px;
+	margin-right: 100px;
+	font-weight: 400;
 }
 
 a{
