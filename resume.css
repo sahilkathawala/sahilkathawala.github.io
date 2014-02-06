@@ -8,27 +8,27 @@ h1{
 	text-align: center;
 }
 
-h2{
-	text-align: center;
-	margin: -30px 15px 10px 15px;
+a{
+	margin: -30px 8px -10px 8px;
+	display: inline-block;
 }
 
-a{
-	display: inline-block;
+#networks{
+	text-align: center;
 }
 
 h3 {
 	font-size: 36px;
 	margin-left: 85px;
 	font-weight: 700;
-
+	margin-bottom: -7px;
 }
 
 h4{
 	font-size: 20px;
-	margin-left: 95px;
 	font-weight: 700;
-
+	margin-bottom: -5px;
+	margin-left: 95px;
 }
 
 h5{
@@ -36,6 +36,7 @@ h5{
 	font-weight: 400;
 	font-size: 16px;
 	margin-left: 115px;
+	margin-bottom: -5px;
 }
 
 p, ul{
