@@ -1,10 +1,8 @@
 @font-face {
-    font-family: Cabin;
-    src: url('Cabin-Bold.ttf');
-    src: url('Cabin-SemiBold.ttf');
-    src: url('Cabin-SemiBoldItalic.ttf');
+    font-family: 'Cabin';
     src: url('Cabin-Regular.ttf');
-	}
+ }
+
 *{
 	font-family: Cabin;
 }
@@ -19,7 +17,7 @@ a{
 }
 
 a:link{
-	color:#6a7d95;
+	color:#3a4359;
 	}
 a:visited{
 	color:#6a7d95;
@@ -40,7 +38,7 @@ a:active{
 
 .headline{
 	text-align: center;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .header{
@@ -76,9 +74,9 @@ a:active{
 .subjects {
 	font-size: 36px;
 	margin-left: 85px;
-	font-weight: 600;
 	margin-bottom: -7px;
 	text-align: left;
+	color: #3a4359;
 }
 
 .jobs{
