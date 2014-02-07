@@ -1,5 +1,12 @@
+@font-face {
+    font-family: Cabin;
+    src: url('Cabin-Bold.ttf');
+    src: url('Cabin-SemiBold.ttf');
+    src: url('Cabin-SemiBoldItalic.ttf');
+    src: url('Cabin-Regular.ttf');
+	}
 *{
-	font-family: 'Futura' sans-serif;
+	font-family: Cabin;
 }
 
 body{
