@@ -17,7 +17,7 @@ a{
 }
 
 a:link{
-	color:#3a4359;
+	color:#476C91;
 	}
 a:visited{
 	color:#6a7d95;
@@ -44,6 +44,7 @@ a:active{
 .header{
 	text-align: center;
 	font-weight: 600;
+	color: #B3B4B4;
 }
 
 .bio, .resume{
@@ -67,7 +68,7 @@ a:active{
 
 .networks{
 	text-align: center;
-	margin: 0px 8px -10px 8px;
+	margin: 0px 8px -20px 8px;
 	display: inline-block;
 }
 
