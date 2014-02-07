@@ -19,7 +19,7 @@ a{
 }
 
 a:link{
-	color:#3a4359;
+	color:#6a7d95;
 	}
 a:visited{
 	color:#6a7d95;
@@ -40,7 +40,7 @@ a:active{
 
 .headline{
 	text-align: center;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .header{
