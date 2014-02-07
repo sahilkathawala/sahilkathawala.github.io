@@ -1,12 +1,17 @@
 *{
-	font-family: Futura;
+	font-family: 'Cabin', sans-serif;
+	
+}
+
+body{
 	text-align: center;
+
 }
 
 a{
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
+
 a:link{
 	color:#3a4359;
 	}
@@ -18,3 +23,76 @@ a:hover{
 }
 a:active{
 	color: #609a9f;
+}
+
+#me{
+	float: center;
+	width="300";
+	height="300";
+
+}
+
+.headline{
+	text-align: center;
+	font-weight: 700;
+}
+
+.header{
+	text-align: center;
+	font-weight: 600;
+}
+
+.bio, .resume{
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: left;
+}
+
+.biohead{
+	margin-left: 10px;
+	color: #3a4359;
+	font-weight: 600;
+
+}
+
+.biopara{
+	margin-left: 50px;
+	margin-right: 100px;
+	font-weight: 400;
+}
+
+.networks{
+	text-align: center;
+	margin: 0px 8px -10px 8px;
+	display: inline-block;
+}
+
+.subjects {
+	font-size: 36px;
+	margin-left: 85px;
+	font-weight: 600;
+	margin-bottom: -7px;
+	text-align: left;
+}
+
+.jobs{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: -5px;
+	margin-left: 95px;
+}
+
+.dates{
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	margin-left: 115px;
+	margin-bottom: -5px;
+}
+
+.restext{
+	font-size: 16px;
+	margin-left: 115px;
+	margin-right: 100px;
+	font-weight: 400;
+}

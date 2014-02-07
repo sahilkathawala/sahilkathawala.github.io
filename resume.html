@@ -4,30 +4,36 @@
 		<title>resume</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-		<link rel="stylesheet" href="resume.css" type="text/css" />
+		<link rel="stylesheet" href="index.css" type="text/css" />
 		<link rel="icon" href="arrow.png" type="image/png"/>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cabin:400,600,700' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
-		<h1> Sahil Kathawala </h1>
-		
-		<div id="networks">
-		<a href="mailto:sahilkathawala@gmail.com" target="_blank"><img src="gmail.png" alt="GMail" width="64" height="64" /></a>
-		<a href="https://www.twitter.com/sahilkathawala" target="_blank"><img src="twitter.png" alt="Twitter" width="64" height="64" /> </a>
-		<a href="http://www.linkedin.com/in/sahilkathawala" target="_blank"><img src="linkedin.png" alt="Linkedin" width="64" height="64" /> </a> 
-		<a href="https://github.com/sahilkathawala" target="_blank"><img src="github.png" alt="GitHub" width="64" height="64" /> </a> 
+		<a href="./index.html"><img src="door.png" id="me" alt="Picture of Sahil"/> </a>
+		<h1 class="headline">Sahil Kathawala</h1>
+		<h2 class="header">
+			<a href="bio.html" target="_blank">bio</a>
+			//
+			<a href="resume.html" target="_blank">resume</a>
+		</h2>
+		<div class="networks">
+			<a href="mailto:sahilkathawala@gmail.com" target="_blank"><img src="mail.png" alt="Mail" width="64" height="64" /></a>
+			<a href="https://www.twitter.com/sahilkathawala" target="_blank"><img src="twitter.png" alt="Twitter" width="64" height="64" /> </a>
+			<a href="http://www.linkedin.com/in/sahilkathawala" target="_blank"><img src="linkedin.png" alt="Linkedin" width="64" height="64" /> </a> 
+			<a href="https://github.com/sahilkathawala" target="_blank"><img src="github.png" alt="GitHub" width="64" height="64" /> </a> 
 		</div>
+
+		<div class="resume">
+		<h3 class="subjects">Education</h3>
 		
-		<h3>Education</h3>
-		
-		<p>
+		<p class="restext">
 		Tufts University, 2015 <br/>
 		B.A. Economics, minor Entrepreneurial Leadership Studies
 		</p> 
 
-		<h3>Relevant Coursework</h3>
-		<p>
+		<h3 class="subjects">Relevant Coursework</h3>
+		<p class="restext">
 			Statistics <br/>
 			Econometrics <br/>
 			Business Planning <br/>
@@ -36,10 +42,10 @@
 			Web Programming <br/>
 		</p>
 
-		<h3>Professional Experience</h3>
-		<h4>Business Director/On The Sides Records Coordinator, WMFO</h4>
-			<h5>January 2013 - May 2014</h5>
-			<ul>
+		<h3 class="subjects">Professional Experience</h3>
+		<h4 class="jobs">Business Director/On The Sides Records Coordinator, WMFO</h4>
+			<h5 class="dates">January 2013 - May 2014</h5>
+			<ul class="restext">
 				<li>
 					Manage the station's business and revenue generation projects, specifically coordinate WMFO's On The Side recording studio and student label and oversee station advertising campaigns.
 				</li>
@@ -53,23 +59,23 @@
 					Currently, revamping label's business model, specifically looking to generate revenue from off-campus sources.
 				</li>
 			</ul>
-		<h4>Research Intern, Vishria and Associates</h4>
-			<h5>June 2012 - August 2012</h5>
-			<ul>
+		<h4 class="jobs">Research Intern, Vishria and Associates</h4>
+			<h5 class="dates">June 2012 - August 2012</h5>
+			<ul class="restext">
 				<li>
 					Researched Greek debt crisis, developing markets in India and West Africa, and growth of oil markets in the United States.
 				</li>
 			</ul>
 		
-		<h3>Skills</h3>
-		<p>
+		<h3 class="subjects">Skills</h3>
+		<p class="restext">
 		HTML/CSS<br/>
 		STATA<br/>
 		Microsoft Office<br/>
 		</p>
 
-		<h3>Activities</h3>
-		<p>
+		<h3 class="subjects">Activities</h3>
+		<p class="restext">
 		Disc Jockey, WMFO <br/>
 		Tour Guide, Tufts University <br/>
 		<br/>
@@ -77,6 +83,8 @@
 		<br/>
 	
 		</p>
+
+	</div>
 	
 	</body>
 </html>
