@@ -3,9 +3,6 @@
     src: url('Cabin-Regular.ttf');
  }
 
-
-
-
 *{
 	font-family: Cabin;
 }
@@ -101,14 +98,14 @@ a:active{
 @media (max-width: 568px) {
  	.bio, .resume, {
  		padding: 0;
- 		margin: 0;
  	}
 
  	.biohead, .subjects, .jobs{
- 		margin: 0;
+ 		margin-left: 0;
+ 		margin-right: 0;
  	}
 
  	.biopara, .dates, .restext{
- 		margin-left: 3px;
+ 		margin-left: 10px;
  	}
 }
