@@ -98,6 +98,7 @@ a:active{
 @media (max-width: 568px) {
  	.bio, .resume, {
  		padding: 0;
+ 		margin: 0;
  	}
 
  	.biohead, .subjects, .jobs{
@@ -107,5 +108,6 @@ a:active{
 
  	.biopara, .dates, .restext{
  		margin-left: 10px;
+ 		margin-right: 0;
  	}
 }
