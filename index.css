@@ -3,11 +3,7 @@
     src: url('Cabin-Regular.ttf');
  }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait){
- 	.bio, .resume{
- 		padding: 0;
- 	}
-}
+
 
 
 *{
@@ -100,4 +96,19 @@ a:active{
 	margin-left: 115px;
 	margin-right: 100px;
 	font-weight: 400;
+}
+
+@media (max-width: 568px) {
+ 	.bio, .resume, {
+ 		padding: 0;
+ 		margin: 0;
+ 	}
+
+ 	.biohead, .subjects, .jobs{
+ 		margin: 0;
+ 	}
+
+ 	.biopara, .dates, .restext{
+ 		margin-left: 3px;
+ 	}
 }
